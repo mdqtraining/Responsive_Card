@@ -1,44 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-.{
-    padding: 0;
-    margin: 0;
+
+*.{
+    
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-.background-design{
-    position: absolute;
-    height:100%;
-    width: 100%;
+body{
     background-color: #1CB289;
     background-image: linear-gradient(to left, #1CB289 , #2CD383);
+    height:100vh;
+    width: 100%;
 }
-/* .profile1{
-    background-color: #F0F0F0;
-    border-radius: 100%;
-} */
-/* .button-container{
-    background-color: #1ABF9D;
-    width: 10%;
-    border-radius: 10%;
-} */
+
 .contact{
     background-color: white;
+    margin-top: 120px;
 }
 .cntctmrgn{
     margin-left: 10%;
     font-size: x-small;
 }
+.cntctmrgns{
+    font-size: x-small;
+}
+.overall1{
+    height: 415px;
+    width: 85%;
+    position: relative;
+}
+@media only screen and (max-width: 900px)
+{
+    .overall1{
+        margin-top: ;
+    }
+}
+.profile1{
+    background-color: #F0F0F0;
+    border-radius: 100%;
+}
+.fstprflcard{
+    background-color:#1BC09D;
+    border-radius: 5%;
+    position: absolute;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: -15%;
+}
+.contact{   
+    color:#1ABF9D;
+ }
+.textcard{
+    color: white;
+}
 .social-profile{
-
-}
-
-.verth{
-    height:350px;
-}
-.firstcard{
-    width: 70%;
-    height: 130%;
-    margin-top: 30%;
-    margin-left: 10%;
-    border-radius: 3%;
+    background-color:#1BC09D;
+    border-radius: 10px;
+    position: absolute;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 380px
 }
